@@ -1,0 +1,8 @@
+[build]
+3.82.189.196 ansible_user=centos ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+
+[preprod]
+52.90.177.15 ansible_user=centos ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+
+[prod]
+3.86.146.37 ansible_user=centos ansible_ssh_common_args='-o StrictHostKeyChecking=no'
