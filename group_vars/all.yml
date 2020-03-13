@@ -1,13 +1,13 @@
 ---
 fake_backend_source_repo: "git@github.com:samiamr/fake-backend.git"
 fake_backend_source_branch: "master"
-fake_backend_image_tag: "JenkinsCICD"
+fake_backend_image_tag: "JenkinsCICDnew"
 
 home: "/home/centos"
 volume_database: "/srv/db-data"
 
-ip_addr_preprod: "52.90.177.15"
-ip_addr_prod: "3.86.146.37"
+ip_addr_preprod: "18.233.164.123"
+ip_addr_prod: "3.82.199.10"
 port_app: "8181"
 
 login_app: "{{ vault_login_app  }}"
